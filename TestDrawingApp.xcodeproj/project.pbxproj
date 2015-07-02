@@ -121,13 +121,9 @@
 		843D292E18BEF6FA0048EB14 /* TestDrawingApp */ = {
 			isa = PBXGroup;
 			children = (
+				84ED93F01B4557DD0031E816 /* Pod */,
 				843D293718BEF6FA0048EB14 /* AppDelegate.h */,
 				843D293818BEF6FA0048EB14 /* AppDelegate.m */,
-				84ED93E81B4556EB0031E816 /* FinalAlgView.h */,
-				84ED93E91B4556EB0031E816 /* FinalAlgView.m */,
-				84ED93EA1B4556EB0031E816 /* FirstViewController.h */,
-				84ED93EB1B4556EB0031E816 /* FirstViewController.m */,
-				84ED93EC1B4556EB0031E816 /* FirstViewController.xib */,
 				843D293A18BEF6FA0048EB14 /* Images.xcassets */,
 				843D292F18BEF6FA0048EB14 /* Supporting Files */,
 			);
@@ -161,6 +157,18 @@
 				843D294A18BEF6FA0048EB14 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84ED93F01B4557DD0031E816 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				84ED93E81B4556EB0031E816 /* FinalAlgView.h */,
+				84ED93E91B4556EB0031E816 /* FinalAlgView.m */,
+				84ED93EA1B4556EB0031E816 /* FirstViewController.h */,
+				84ED93EB1B4556EB0031E816 /* FirstViewController.m */,
+				84ED93EC1B4556EB0031E816 /* FirstViewController.xib */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
