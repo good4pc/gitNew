@@ -21,9 +21,9 @@
 		843D294E18BEF6FA0048EB14 /* TestDrawingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D294D18BEF6FA0048EB14 /* TestDrawingAppTests.m */; };
 		84ED93E61B4525EC0031E816 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 84ED93E41B4525EC0031E816 /* README.md */; };
 		84ED93E71B4525EC0031E816 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84ED93E51B4525EC0031E816 /* LICENSE.txt */; };
-		84ED93ED1B4556EB0031E816 /* FinalAlgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED93E91B4556EB0031E816 /* FinalAlgView.m */; };
-		84ED93EE1B4556EB0031E816 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED93EB1B4556EB0031E816 /* FirstViewController.m */; };
-		84ED93EF1B4556EB0031E816 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ED93EC1B4556EB0031E816 /* FirstViewController.xib */; };
+		84ED93F61B45594C0031E816 /* FinalAlgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED93F21B45594C0031E816 /* FinalAlgView.m */; };
+		84ED93F71B45594C0031E816 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ED93F41B45594C0031E816 /* FirstViewController.m */; };
+		84ED93F81B45594C0031E816 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ED93F51B45594C0031E816 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +55,11 @@
 		843D294D18BEF6FA0048EB14 /* TestDrawingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDrawingAppTests.m; sourceTree = "<group>"; };
 		84ED93E41B4525EC0031E816 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		84ED93E51B4525EC0031E816 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		84ED93E81B4556EB0031E816 /* FinalAlgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinalAlgView.h; path = POD/FinalAlgView.h; sourceTree = SOURCE_ROOT; };
-		84ED93E91B4556EB0031E816 /* FinalAlgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinalAlgView.m; path = POD/FinalAlgView.m; sourceTree = SOURCE_ROOT; };
-		84ED93EA1B4556EB0031E816 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = POD/FirstViewController.h; sourceTree = SOURCE_ROOT; };
-		84ED93EB1B4556EB0031E816 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = POD/FirstViewController.m; sourceTree = SOURCE_ROOT; };
-		84ED93EC1B4556EB0031E816 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController.xib; path = POD/FirstViewController.xib; sourceTree = SOURCE_ROOT; };
+		84ED93F11B45594C0031E816 /* FinalAlgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalAlgView.h; sourceTree = "<group>"; };
+		84ED93F21B45594C0031E816 /* FinalAlgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalAlgView.m; sourceTree = "<group>"; };
+		84ED93F31B45594C0031E816 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84ED93F41B45594C0031E816 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84ED93F51B45594C0031E816 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +124,11 @@
 				84ED93F01B4557DD0031E816 /* Pod */,
 				843D293718BEF6FA0048EB14 /* AppDelegate.h */,
 				843D293818BEF6FA0048EB14 /* AppDelegate.m */,
+				84ED93F11B45594C0031E816 /* FinalAlgView.h */,
+				84ED93F21B45594C0031E816 /* FinalAlgView.m */,
+				84ED93F31B45594C0031E816 /* FirstViewController.h */,
+				84ED93F41B45594C0031E816 /* FirstViewController.m */,
+				84ED93F51B45594C0031E816 /* FirstViewController.xib */,
 				843D293A18BEF6FA0048EB14 /* Images.xcassets */,
 				843D292F18BEF6FA0048EB14 /* Supporting Files */,
 			);
@@ -162,11 +167,6 @@
 		84ED93F01B4557DD0031E816 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				84ED93E81B4556EB0031E816 /* FinalAlgView.h */,
-				84ED93E91B4556EB0031E816 /* FinalAlgView.m */,
-				84ED93EA1B4556EB0031E816 /* FirstViewController.h */,
-				84ED93EB1B4556EB0031E816 /* FirstViewController.m */,
-				84ED93EC1B4556EB0031E816 /* FirstViewController.xib */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -249,7 +249,7 @@
 				84ED93E71B4525EC0031E816 /* LICENSE.txt in Resources */,
 				843D293318BEF6FA0048EB14 /* InfoPlist.strings in Resources */,
 				843D293B18BEF6FA0048EB14 /* Images.xcassets in Resources */,
-				84ED93EF1B4556EB0031E816 /* FirstViewController.xib in Resources */,
+				84ED93F81B45594C0031E816 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +270,8 @@
 			files = (
 				843D293918BEF6FA0048EB14 /* AppDelegate.m in Sources */,
 				84ED93E61B4525EC0031E816 /* README.md in Sources */,
-				84ED93EE1B4556EB0031E816 /* FirstViewController.m in Sources */,
-				84ED93ED1B4556EB0031E816 /* FinalAlgView.m in Sources */,
+				84ED93F71B45594C0031E816 /* FirstViewController.m in Sources */,
+				84ED93F61B45594C0031E816 /* FinalAlgView.m in Sources */,
 				843D293518BEF6FA0048EB14 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
